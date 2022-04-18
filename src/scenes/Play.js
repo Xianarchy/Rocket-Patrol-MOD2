@@ -69,7 +69,7 @@ class Play extends Phaser.Scene {
         this.ship01 = new Spaceship(this, x1, borderUISize * 4, 'spaceship', 0, 30, x1Left).setOrigin(0, 0).setScrollFactor(0);
         this.ship02 = new Spaceship(this, x2 + borderUISize * 3, borderUISize * 5 + borderPadding * 2, 'spaceship', 0, 20, x2Left).setOrigin(0, 0).setScrollFactor(0);
         this.ship03 = new Spaceship(this, x3, borderUISize * 6 + borderPadding * 4, 'spaceship', 0, 10,x4Left).setOrigin(0, 0).setScrollFactor(0);
-        this.ship04 = new Spaceship(this, x4, borderUISize * 7 + borderPadding * 6, 'spaceshipX', 0, 40,x4Left).setOrigin(0, 0).setScale(0.5,0.5).setScrollFactor(0);
+        this.ship04 = new SpaceshipX(this, x4, borderUISize * 7 + borderPadding * 6, 'spaceshipX', 0, 40,x4Left).setOrigin(0, 0).setScale(0.5,0.5).setScrollFactor(0);
         keyF = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.F);
         keyR = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
